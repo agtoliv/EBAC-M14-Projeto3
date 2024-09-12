@@ -14,7 +14,8 @@ body{
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
     color: aliceblue;
 }
 
@@ -33,4 +34,13 @@ body{
 
 .text-colored{
     color: #e15f41
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: #e15f41;
+    color:aliceblue ;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #e15f41;
 }
