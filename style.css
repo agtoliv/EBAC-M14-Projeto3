@@ -7,12 +7,12 @@ body{
     background-color: #e15f41;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: aliceblue;
     color: #e15f41;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover{
     color: aliceblue;
